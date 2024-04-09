@@ -1,4 +1,4 @@
-This is a landing page developed for AT DIGITAL
+This is a landing page developed for AT DIGITAL, carefully written to achieve pixel-perfection, thanks to flex-box and relative sizes!
 Tech stack used:
 - HTML
 - CSS
