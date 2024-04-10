@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo_notxt.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
@@ -40,7 +40,8 @@
     <main>
       <div class="main__container">
         <section class="hero">
-          <img src="/assets/hero.png" alt="hero image" class="hero__img" />
+          <img src="/assets/hero-0.png" alt="hero image" class="hero__img" />
+          <img src="/assets/hero.png" alt="hero image" class="hero__img-xl" />
           <div class="hero__content">
             <p>
               We Crush Your Competitors, Goals, And Sales Records - Without The
@@ -51,7 +52,7 @@
         </section>
 
         <section class="info">
-          <div class="info__section1">
+          <div class="info__section1" id="app_development">
             <img src="/assets/app_mobile_dev.png" alt="pc" class="info__img" />
             <div class="info__content">
               <h3 class="info__title title">Web & Mobile App Development</h3>
@@ -64,7 +65,7 @@
               <button class="info__btn cta-btn">Learn More</button>
             </div>
           </div>
-          <div class="info__section2">
+          <div class="info__section2" id="data_analytics">
             <img src="/assets/consulting.png" alt="check" class="info__img" />
             <div class="info__content">
               <h3 class="info__title title">Digital Strategy Consulting</h3>
@@ -139,7 +140,7 @@
       <div class="footer__container">
         <div class="footer__info">
           <div class="footer__info__logo">
-            <img src="/logo.svg" alt="logo" />
+            <a href="#"><img src="/logo.svg" alt="logo" /></a>
           </div>
           <p class="footer__info__text">
             Your goal is our target. Not anything in between. We use online
@@ -160,17 +161,25 @@
           <p class="footer__title">Our Services</p>
           <ul class="footer__list">
             <li>Social Media Marketing</li>
-            <li>Web & Mobile App Development</li>
-            <li>Data & Analytics</li>
+            <li>
+              <a href="#app_development" class="footer__link"
+                >Web & Mobile App Development</a
+              >
+            </li>
+            <li>
+              <a href="#data_analytics" class="footer__link"
+                >Data & Analytics</a
+              >
+            </li>
           </ul>
         </div>
       </div>
       <div class="footer__notes">
         <img src="/assets/footer-line.svg" alt="footer line" />
         <div class="footer__notes__text">
-          <a href="#">Privacy Policy</a>
+          <a href="#" class="footer__link">Privacy Policy</a>
           <span class="footer__vertical">|</span>
-          <a href="#">Terms & Conditions</a>
+          <a href="#" class="footer__link">Terms & Conditions</a>
         </div>
       </div>
     </footer>
